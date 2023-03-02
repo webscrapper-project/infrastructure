@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  labels:
+    app: web-scrapper
+    tier: postgres
+data:
+  ENVIRONMENT: development
+  DB_M_HOST: http://mongodb
+  DB_M_PORT: 27017
+  DB_M_NAME: webscrapper
+  QUEUE_HOST: localhost
+  QUEUE_PORT: 6379

@@ -1,0 +1,10 @@
+amazon-ecs:1.46
+aws-credentials:191.vcb_f183ce58b_9
+command-launcher:90.v669d7ccb_7c31
+cloudbees-folder:6.800.v71307ca_b_986b
+pipeline-utility-steps:2.14.0
+pipeline-aws:1.43
+audit-trail:3.11
+blueocean:1.25.7
+configuration-as-code:1569.vb_72405b_80249
+job-dsl:1.81
