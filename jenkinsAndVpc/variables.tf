@@ -2,14 +2,6 @@ variable "aws_region" {
   description = "AWS region"
 }
 
-variable "aws_access_key" {
-  description = "AWS access key"
-}
-
-variable "aws_secret_key" {
-  description = "AWS secret key"
-}
-
 variable "jenkins_version" {
   description = "Version of Jenkins to deploy. Must be a tag for the jenkins/jenkins image on Docker Hub."
   type = string
