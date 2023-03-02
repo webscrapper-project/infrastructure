@@ -1,6 +1,11 @@
 # Web Scrapper Infrastructure at AWS
 #### You can see whole infrastructure design in docs folder. (Be sure you add drawio extension in your Code Editor)
 
+## Prerequisites
+- Set the credentials for the AWS CLI using either the `aws configure` command or using environment variables (see https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+- Create an S3 bucket `web-scrapper-state` to hold the Terraform state
+- Create a DynamoDB table `web-scrapper-state` to synchronize Terraform execution
+
 ### 1. First You should deploy VPC and Jenkins resources into AWS:
     cd jenkinsAndVpc
     terraform plan
